@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <table align="center" width="700" cellpadding="10">
+            <tr>
+                <td colspan="2" align="center">
+                    <h1>Student Registration Form</h1>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Fname">STUDENT NAME -</label>
+                </td>
+
+                <td>
+                    <input type="text" id="Fname" placeholder="First name" name="Firstname"> -
+                    <input type="text" id="Lname" placeholder="Last name" name="Lastname">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+              <label for="Ftname">FATHER's NAME -</label>      
+                </td>
+
+                <td>
+                    <input type="text" id="Ftname" placeholder="First name" name="Firstname"> -
+                    <input type="text" id="Lname" placeholder="Last name" name="Lastname">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+              <label for="Mtname">MOTHER's NAME -</label>      
+                </td>
+
+                <td>
+                    <input type="text" id="Mtname" placeholder="First name" name="Firstname"> -
+                    <input type="text" id="Lname" placeholder="Last name" name="Lastname">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="date">DATE OF BIRTH -</label>
+                </td>
+
+                <td>
+                    <input type="date" id="date"> <i>(Date of birth)</i>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="mbn">MOBILE NO -</label>
+                </td>
+
+                <td>
+                    <input type="text" size="1" value="+91">
+                    <input type="text" size="10" id="mbn" placeholder="Mobile no">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Eml">EMAIL ID -</label>
+                </td>
+
+                <td>
+                    <input type="text" size="40" id="eml" placeholder="Email id">
+                </td>
+            </tr>
+            
+
+            <tr>
+                <td>
+                    GENDER -
+                </td>
+
+                <td>
+                    <input type="radio" name="n">Male
+                    <input type="radio" name="n" >Female
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>DEPARTMENT -</td>
+                <td>
+                    <input type="checkbox">CSE
+                    <input type="checkbox">IT
+                    <input type="checkbox">ECE
+                    <input type="checkbox">CIVIL
+                    <input type="checkbox">MECH
+                </td>
+            </tr>
+
+            <tr>
+                <td>COURSE -</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">----------------Select Current course's----------------</option>
+                        <option value="">Java</option>
+                        <option value="">React.js</option>
+                        <option value="">Node.js</option>
+                        <option value="">PHP</option>
+                        <option value="">SQL</option>
+                        <option value="">C++</option>
+                        <option value="">C#</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>STUDENT PHOTO -</td>
+                <td>
+                    <input type="file">
+                </td>
+                
+                <tr>
+                    <td>
+                        <label for="cty">CITY -</label>
+                    </td>
+                    <td>
+                        <input type="text" size="50" id="cty" name="">
+                    </td>
+
+                    <tr>
+                        <td>
+                            <label for="addr">ADDRESS -</label>
+                        </td>
+                        <td>
+                            <input type="text" size="50" id="addr" name="address" placeholder="Address">
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <label for="aby">ABOUT YOURSELF -</label>
+                        </td>
+                        <td>
+                            <textarea name="About" rows="5" cols="47" id="aby" placeholder="About yourslef"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button>Reset</button>
+                            <button>Submit</button>
+                        </td>
+                    </tr>
+            
+        </table>
+    </form>
+    
+</body>
+</html>
